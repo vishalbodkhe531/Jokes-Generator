@@ -25,8 +25,8 @@ h2{
     0px 0px 0px #ff0000;
 }
 .contener{
-    height: 14rem;
-    width: 20rem;
+    height: 17rem;
+    width: 23rem;
     border-radius: 10px;
     background-color: #ffffff;
     position: absolute;
@@ -35,7 +35,8 @@ h2{
 .jocks-contener{
     height: 100px;
     display: flex;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 2rem;
     word-spacing: 2px;
     flex-wrap: wrap;
     justify-content: center;
@@ -46,14 +47,15 @@ h2{
 }
 
 #btn{
-    position: absolute;
+    position: absolute; 
     right: 30px;
+    bottom: 6%;
     margin: 30px 1px;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid black;
     cursor: pointer;
-    background-color: rgb(255, 128, 1);
+    background-color: rgb(255, 153, 0);
     transition: transform 0.2s ease;
 }
 
