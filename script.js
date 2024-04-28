@@ -11,6 +11,8 @@ async function joks(){
         }
     })
     const jokeObj = await jokeData.json();
-    // console.log(jokeObj.joke);
     contener.innerHTML = jokeObj.joke;
+    let audio = new Audio("/audio/WhatsApp Audio 2024-04-28 at 12.41.34 PM.mpeg");
+    audio.play();
 }
+
